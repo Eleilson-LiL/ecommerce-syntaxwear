@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
+    padding: 0.265rem 1.25rem;
     background-color: #ffffff;
 }
 
@@ -23,13 +23,10 @@
     gap: 2.5rem;
 }
 
-.nav-center a{
-    text-decoration: none;
-}
-
 .nav-center a,
 .nav-right a {
     font-size: 1.25rem;
+    color: #333333;
 }
 
 .nav-center a:hover,
@@ -44,12 +41,12 @@
 }
 
 .nav-right img{
-    height: 24px;
+    height: 20px;
 }
 
 /* correção de bug */
 
-/* .nav-container{
+.nav-container{
     display: flex;
     justify-content: space-between;
     width: 100px;
@@ -57,7 +54,7 @@
     flex: 1;
     margin-left: 10rem;
 
-} */
+}
 
 .nav-right a:hover img{
     opacity: 0.7;
